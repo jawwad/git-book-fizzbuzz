@@ -2,11 +2,11 @@
 
 
 def fizzbuzz_for_num(
-    n,
-    fizz_divisor=3,
-    fizz_word="Fizz",
-    buzz_divisor=5,
-    buzz_word="Buzz",
+    n: int,
+    fizz_divisor: int = 3,
+    fizz_word: str = "Fizz",
+    buzz_divisor: int = 5,
+    buzz_word: str = "Buzz",
 ):
     should_fizz = n % 3 == 0
     should_buzz = n % 5 == 0
